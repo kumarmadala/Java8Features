@@ -21,7 +21,7 @@ public class JavaStreaming {
 		// using lambda with Stream API, filter example
 		Stream<Integer> parallel = parallelStream.filter(num -> (num > 30 && num < 45));
 		// using lambda in forEach
-		parallel.forEach(p -> System.out.println("Boundary values=" + p));
+		parallel.forEach(p -> System.out.println("parallel values=" + p));
 
 		Stream<Integer> sequence = sequentialStream.filter(n -> (n>30 && n<50));
 		sequence.forEach(p -> System.out.println("sequential values=" + p));

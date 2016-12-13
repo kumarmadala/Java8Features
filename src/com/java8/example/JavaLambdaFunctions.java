@@ -29,8 +29,8 @@ public class JavaLambdaFunctions {
 		// without parenthesis
 		GreetingService greetService2 = (message) -> System.out.println("Hello " + message);
 
-		greetService1.sayMessage("Mahesh");
-		greetService2.sayMessage("Suresh");
+		greetService1.sayMessage("kumar");
+		greetService2.sayMessage("madala");
 	}
 
 	interface MathOperation {

@@ -35,6 +35,6 @@ public class JavaCollections {
 // Consumer implementation that can be reused
 class MyConsumer implements Consumer<Integer> {
 	public void accept(Integer i) {
-		System.out.println("Consumer impl Value::" + i);
+		System.out.println("Consumer implementation Value::" + i);
 	}
 }
